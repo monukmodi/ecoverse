@@ -17,14 +17,15 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Ecoverse – Climate Tech for a Greener Tomorrow",
+  title: "Ecoverse – Powering a Greener World Through Technology",
   description:
-    "Explore Ecoverse.info – building climate-positive apps like Climint to inspire green behavior. Join our waitlist for early access.",
+    "Powering a Greener World Through Technology. Explore Ecoverse.info – building climate-positive apps like Climint to inspire green behavior. Join our waitlist for early access.",
   keywords:
     "climate tech, sustainability, green technology, eco-friendly apps, Climint",
   openGraph: {
-    title: "Ecoverse – Climate Tech for a Greener Tomorrow",
-    description: "Building climate-positive apps to inspire green behavior",
+    title: "Ecoverse – Powering a Greener World Through Technology",
+    description:
+      "Powering a Greener World Through Technology. Building climate-positive apps to inspire green behavior",
     url: "https://ecoverse.info",
     siteName: "Ecoverse",
     images: [
@@ -32,7 +33,7 @@ export const metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Ecoverse - Climate Tech for a Greener Tomorrow",
+        alt: "Ecoverse - Powering a Greener World Through Technology",
       },
     ],
     locale: "en_US",
@@ -40,8 +41,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ecoverse – Climate Tech for a Greener Tomorrow",
-    description: "Building climate-positive apps to inspire green behavior",
+    title: "Ecoverse – Powering a Greener World Through Technology",
+    description:
+      "Powering a Greener World Through Technology. Building climate-positive apps to inspire green behavior",
     images: ["/og-image.jpg"],
   },
 };
@@ -49,6 +51,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
+      <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+      </head>
       <body className="min-h-screen bg-background font-body text-textDark">
         <Header />
         <main className="pt-16">{children}</main>

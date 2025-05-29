@@ -17,8 +17,7 @@ const Hero = () => {
             className="flex flex-col justify-center"
           >
             <h1 className="font-heading text-4xl font-bold leading-tight text-textDark md:text-5xl lg:text-6xl">
-              Empowering a Sustainable Future,{" "}
-              <span className="text-primary">One Tap at a Time.</span>
+              Powering a Greener World Through Technology
             </h1>
             <p className="mt-6 text-lg text-textLight md:text-xl">
               We build climate-forward digital products that reward green
